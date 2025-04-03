@@ -9,14 +9,13 @@ if (!userMessage) {
   process.exit(1)
 }
 
+// Function calling
 const weatherTool = {
-  name: "get_stuff",
-  description: "use this to get the weather",
+  name: "get_weather",
+  description: "Use this to get the weather. Does not need a city or location.",
   parameters: z.object({
     reasoning: z.string().describe("why did you pick this tool?")
   })
 }
 
-const response = await runAgent({ userMessage, tools: [weatherTool] })
-
-console.log(response)
+await runAgent({ userMessage, tools: [weatherTool] })
