@@ -2,47 +2,29 @@
   "messages": [
     {
       "role": "user",
-      "content": "Hello, my name is Rasyid"
+      "content": "What is the weather?",
+      "id": "515fed88-cf54-46d3-a00f-14d34f81b4ef",
+      "createdAt": "2025-04-03T08:21:52.074Z"
     },
     {
-      "role": "assistant",
-      "content": "Hi, Rasyid"
-    },
-    {
-      "role": "user",
-      "content": "what is my name?",
-      "id": "b9cef56b-0cc7-410e-a343-06b4634f93db",
-      "createdAt": "2025-04-03T00:48:16.774Z"
-    },
-    {
-      "role": "user",
-      "content": "can you give me simple bash function?",
-      "id": "7fe3e7e5-0efe-4d11-be25-0e98c13c4e4c",
-      "createdAt": "2025-04-03T00:48:49.431Z"
-    },
-    {
-      "role": "user",
-      "content": "can you give me simple go function?",
-      "id": "10d7ff14-7559-472e-806c-0f07140f9593",
-      "createdAt": "2025-04-03T00:50:47.674Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Sure! Here’s a simple Go function that adds two integers and returns the result:\n\n```go\npackage main\n\nimport \"fmt\"\n\n// add function takes two integers and returns their sum\nfunc add(a int, b int) int {\n    return a + b\n}\n\nfunc main() {\n    result := add(3, 5)\n    fmt.Println(\"The sum is:\", result)\n}\n```\n\nIn this example, the `add` function takes two integer parameters, adds them together, and returns the result. The `main` function calls `add` with the values 3 and 5, and then prints the result. You can run this code in a Go environment to see the output.",
-      "id": "ef0b6f3d-f124-427b-99b3-7b449a2de13b",
-      "createdAt": "2025-04-03T00:50:50.836Z"
-    },
-    {
-      "role": "user",
-      "content": "what is my name?",
-      "id": "263d9334-fbcc-4f36-8c43-6d7c722011ed",
-      "createdAt": "2025-04-03T00:51:08.496Z"
-    },
-    {
-      "role": "assistant",
-      "content": "Your name is Rasyid.",
-      "id": "6f3e0ee6-bf62-4cd9-bcc9-62bc2877439a",
-      "createdAt": "2025-04-03T00:51:09.378Z"
+      "response": {
+        "role": "assistant",
+        "content": null,
+        "tool_calls": [
+          {
+            "id": "call_p2R6g3Eots5ECrrpGXNneX9e",
+            "type": "function",
+            "function": {
+              "name": "get_stuff",
+              "arguments": "{\"reasoning\":\"To provide the current weather information.\"}"
+            }
+          }
+        ],
+        "refusal": null,
+        "annotations": []
+      },
+      "id": "c62db6f4-da23-40c9-bbda-94ddcc282d08",
+      "createdAt": "2025-04-03T08:21:53.209Z"
     }
   ]
 }
