@@ -89,6 +89,48 @@
       "annotations": [],
       "id": "07051048-e753-443f-97be-ea3bcde058b1",
       "createdAt": "2025-04-03T22:25:27.923Z"
+    },
+    {
+      "role": "user",
+      "content": "what is weather now in Surabaya?",
+      "id": "a5f3605f-6e85-4273-b231-c71528cc2d88",
+      "createdAt": "2025-04-04T01:03:13.990Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The current weather in Surabaya is hot, with a temperature of 90°F.",
+      "refusal": null,
+      "annotations": [],
+      "id": "0dbc8fbe-0616-4412-b861-3016100414f1",
+      "createdAt": "2025-04-04T01:03:15.459Z"
+    },
+    {
+      "role": "user",
+      "content": "hi",
+      "id": "7da8d084-9533-4665-ad23-d06f8dbcd77b",
+      "createdAt": "2025-04-04T01:07:04.337Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Hello! How can I assist you today?",
+      "refusal": null,
+      "annotations": [],
+      "id": "5b3854e1-397a-46c0-a647-35098223029f",
+      "createdAt": "2025-04-04T01:07:05.251Z"
+    },
+    {
+      "role": "user",
+      "content": "what is weather now in Surabaya?",
+      "id": "84e2bea3-31e5-4234-9799-55c6c345d457",
+      "createdAt": "2025-04-04T01:07:36.092Z"
+    },
+    {
+      "role": "assistant",
+      "content": "The current weather in Surabaya is hot, with a temperature of 90°F.",
+      "refusal": null,
+      "annotations": [],
+      "id": "2deb15ba-986e-4bfc-a56a-5ec12984fdfb",
+      "createdAt": "2025-04-04T01:07:36.945Z"
     }
   ]
 }
